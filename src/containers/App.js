@@ -6,6 +6,7 @@ import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 import { setSearchField, requestRobots } from '../actions';
 import { connect } from 'react-redux';
+import Header from '../components/Header';
 
 const mapStateToProps = (state) => {
   return {
@@ -24,7 +25,6 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 class App extends Component {
-
   componentDidMount() {
     this.props.onRequestRobots();
   }
@@ -36,8 +36,7 @@ class App extends Component {
       <h1 className='tc'>Loading</h1>
     ) : (
       <div className='tc'>
-        <h1 className='f2'>RoboFriends</h1>
-
+        <Header />
         <SearchBox searchField={searchField} searchChange={onSearchChange} />
         <Scroll>
           <ErrorBoundry>
