@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing MainPage Component expects to render MainPage Component 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox
+    searchField=""
+  />
+  <Scroll>
+    <ErrorBoundry>
+      <CardList
+        robots={
+          Array [
+            Object {
+              "email": "adel@fscsa.com",
+              "id": 1,
+              "name": "adel",
+            },
+            Object {
+              "email": "adel@fscsa.com",
+              "id": 2,
+              "name": "ahmed",
+            },
+          ]
+        }
+      />
+    </ErrorBoundry>
+  </Scroll>
+</div>
+`;

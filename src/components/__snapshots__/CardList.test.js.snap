@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`carList renders 1`] = `
+<div>
+  <Card
+    email="big_boss@fox.com"
+    id={1}
+    key="0"
+    name="solid snake"
+  />
+</div>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`carList renders 1`] = `
+<div>
+  <button
+    color="red"
+    id="counter"
+    onClick={[Function]}
+  >
+    Count: 
+    0
+  </button>
+</div>
+`;
